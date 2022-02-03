@@ -28,7 +28,7 @@ public class Main{
 
         return total / allowedNum;
     }
-<<<<<<< HEAD
+
 
     public static int calcMax(int[] temp){
         int highestNum = 0;
@@ -40,7 +40,6 @@ public class Main{
 
         return highestNum;
     }
-}   
-=======
-}   
->>>>>>> 0976ccf98c97d7a5c1d301ccf3297625ee057e9c
+        
+} 
+
