@@ -2,6 +2,8 @@ public class Main{
     public static void main(String[] args) {
         
         int[] temperature = new int[14];
+        
+        //code added from github's remote repo
 
         for (int i = 0; i < temperature.length; i++) {
             temperature[i] = (int)(Math.random()*201-100);
@@ -26,6 +28,7 @@ public class Main{
 
         return total / allowedNum;
     }
+<<<<<<< HEAD
 
     public static int calcMax(int[] temp){
         int highestNum = 0;
@@ -38,3 +41,6 @@ public class Main{
         return highestNum;
     }
 }   
+=======
+}   
+>>>>>>> 0976ccf98c97d7a5c1d301ccf3297625ee057e9c
