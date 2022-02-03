@@ -5,11 +5,10 @@ public class Main{
 
         for (int i = 0; i < temperature.length; i++) {
             temperature[i] = (int)(Math.random()*201-100);
-            System.out.println(temperature[i]);
         }
 
-        System.out.printf("Average is equal to: %.2f", calcAvg(temperature));
-
+        System.out.printf("Average is equal to: %.2f\n", calcAvg(temperature));
+        System.out.println("Highest num is equal to: " + calcMax(temperature));
     }
 
     public static double calcAvg(int[] temp){
@@ -26,5 +25,16 @@ public class Main{
         }
 
         return total / allowedNum;
+    }
+
+    public static int calcMax(int[] temp){
+        int highestNum = 0;
+
+        for (int i : temp){
+            if(i > highestNum)
+                highestNum = i;
+        }
+
+        return highestNum;
     }
 }   
