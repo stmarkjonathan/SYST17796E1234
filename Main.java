@@ -2,6 +2,8 @@ public class Main{
     public static void main(String[] args) {
         
         int[] temperature = new int[14];
+        
+        //code added from github's remote repo
 
         for (int i = 0; i < temperature.length; i++) {
             temperature[i] = (int)(Math.random()*201-100);
